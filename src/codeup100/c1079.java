@@ -8,6 +8,6 @@ public class c1079 {
 	public static void main(String[] args) {
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 		
-		System.out.println("Hello");
+		System.out.println("Hello world");
 	}
 }
