@@ -31,5 +31,6 @@ public class c1083 {
 				System.out.print(i + " ");
 			}
 		}
+		input.close();
 	}
 }

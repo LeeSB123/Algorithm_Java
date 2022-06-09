@@ -29,6 +29,8 @@ public class c1092 {
 		int day = 1;
 		
 		while (day % a != 0 || day % b != 0 || day % c != 0) day++;
+		
 		System.out.println(day);
+		reader.close();
 	}
 }

@@ -37,5 +37,6 @@ public class c1091 {
 		}
 		
 		System.out.println(a);
+		reader.close();
 	}
 }

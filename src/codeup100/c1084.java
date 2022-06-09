@@ -65,5 +65,6 @@ public class c1084 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		reader.close();
 	}
 }

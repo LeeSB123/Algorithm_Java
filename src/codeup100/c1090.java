@@ -37,5 +37,6 @@ public class c1090 {
 		}
 		
 		System.out.println(result);
+		reader.close();
 	}
 }

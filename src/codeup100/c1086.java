@@ -26,5 +26,6 @@ public class c1086 {
 		int b = Integer.parseInt(data[2]);
 		float ans = (float)w * h * b;
 		System.out.printf("%.2f MB", ans/8/1024/1024);
+		reader.close();
 	}
 }

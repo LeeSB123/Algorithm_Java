@@ -28,5 +28,6 @@ public class c1085 {
 		double s = Double.parseDouble(data[3]);
 		double ans = h * b * c * s;
 		System.out.printf("%.1f MB", ans/8/1024/1024);
+		reader.close();
 	}
 }

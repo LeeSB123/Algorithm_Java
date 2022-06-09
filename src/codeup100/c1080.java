@@ -28,5 +28,6 @@ public class c1080 {
             sum += i;
         }
         System.out.println(i-1);
+        input.close();
 	}
 }

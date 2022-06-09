@@ -5,37 +5,35 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class c1093 {
+public class c1094 {
 	public static void main(String[] args) throws IOException {
-//	Memory 27364 Runtime 228		
+//	Memory 42628 Runtime 582		
 //		Scanner scan = new Scanner(System.in);
 //		int count = scan.nextInt();
-//		int students[] = new int[23];
-//		int num = 0;
+//		int num[] = new int[count];
 //		
 //		for (int i = 0 ; i < count ; i++) {
-//			num = scan.nextInt();
-//			students[num - 1] += 1;
+//			num[i] = scan.nextInt();
 //		}
-//		for (int j = 0 ; j < students.length ; j++) {
-//			System.out.print(students[j]+ " ");
+//		
+//		for (int j = num.length-1 ; j >= 0 ; j--) {
+//			System.out.printf("%d ", num[j]);
 //		}
 //		
 //		scan.close();
 		
-//	Memory 13680 Runtime 88
+//	Memory 16520 Runtime 182
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		int count = Integer.parseInt(reader.readLine());
-		int students[] = new int[23];
+		int students[] = new int[count];
 		String num[] = reader.readLine().split(" ");
 		int num_i = 0;
 		
 		for (int i = 0 ; i < count ; i++) {
-			num_i = Integer.parseInt(num[i]);
-			students[num_i - 1] += 1;
+			students[i] = Integer.parseInt(num[i]);
 		}
 		
-		for (int j = 0 ; j < students.length ; j++) {
+		for (int j = students.length-1 ; j >= 0 ; j--) {
 			System.out.print(students[j]+ " ");
 		}
 		

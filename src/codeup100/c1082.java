@@ -33,5 +33,6 @@ public class c1082 {
 			result = Integer.toHexString(n * i).toUpperCase();
 			System.out.println(data + "*" + change + "=" + result);
 		}
+		input.close();
 	}
 }

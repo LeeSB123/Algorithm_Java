@@ -35,5 +35,6 @@ public class c1089 {
 		}
 		
 		System.out.println(a);
+		reader.close();
 	}
 }
