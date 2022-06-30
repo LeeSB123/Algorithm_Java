@@ -1,5 +1,6 @@
 package baekjoon;
 
+// 세탁소 사장 동혁 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

@@ -1,5 +1,6 @@
 package baekjoon;
 
+// 전자레인지 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
