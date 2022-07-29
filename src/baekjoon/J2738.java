@@ -8,31 +8,26 @@ public class J2738 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		int N = 0, M = 0;
-		int[][] dataA = new int[N][M];
-		int[][] dataB = new int[N][M];
-		int[][] result = new int[N][M];
+		int N = scan.nextInt();
+		int M = scan.nextInt();
+		int[][] data = new int[N][M];
 		
-		for (int i = 0 ; i < N ; i++) {
-			for (int j = 0 ; j < M ; j++) {
-				dataA[i][j] = scan.nextInt();
-				result[i][j] += dataA[i][j];
+		for (int i = 0 ; i < 2 ; i++) {
+			for (int j = 0 ; j < N ; j++) {
+				for (int z = 0 ; z < M ; z++) {
+					data[j][z] += scan.nextInt();
+				}
 			}
 		}
 		
 		for (int i = 0 ; i < N ; i++) {
 			for (int j = 0 ; j < M ; j++) {
-				dataB[i][j] = scan.nextInt();
-				result[i][j] += dataB[i][j];
-			}
-		}
-		
-		for (int i = 0 ; i < N ; i++) {
-			for (int j = 0 ; j < M ; j++) {
-				System.out.print(result[i][j]);
+				System.out.print(data[i][j] + " ");
 			}
 			System.out.println();
 		}
+		
+		scan.close();
 		
 	}
 	
