@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 
-public class j2720 {
+public class J2720 {
 	public static void main(String[] args) throws IOException {
 //	memory 19396kb runtime 320ms
 //		Scanner scan = new Scanner(System.in);

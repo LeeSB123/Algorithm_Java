@@ -5,7 +5,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-public class j1264 {
+public class J1264 {
 	public static void main(String[] args) throws IOException {
 //	Memory 14004kb Runtime 116ms
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.Scanner;
 
-public class j11034 {
+public class J11034 {
 	
 	public static void main(String[] args) throws IOException {
 //	Memory 17320kb Runtime 204ms

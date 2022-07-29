@@ -3,7 +3,7 @@ package baekjoon;
 // 가위 바위 보 
 import java.util.Scanner;
 
-public class j2930 {
+public class J2930 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);

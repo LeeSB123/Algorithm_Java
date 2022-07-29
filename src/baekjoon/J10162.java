@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.io.BufferedWriter;
 import java.io.OutputStreamWriter;
 
-public class j10162 {
+public class J10162 {
 	public static void main(String[] args) throws IOException {
 //	memory 18728kb runtime 244ms
 //		Scanner scan = new Scanner(System.in);

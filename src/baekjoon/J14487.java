@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class j14487 {
+public class J14487 {
 	public static void main(String[] args) throws IOException {
 //	Memory 66680kb Runtime 632kb
 //		Scanner scan = new Scanner(System.in);

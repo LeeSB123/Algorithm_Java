@@ -3,7 +3,7 @@ package baekjoon;
 // 포인트 카드 
 import java.util.Scanner;
 
-public class j14471 {
+public class J14471 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);

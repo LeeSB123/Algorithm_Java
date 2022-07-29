@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class j2864 {
+public class J2864 {
 	public static void main(String[] args) throws IOException {
 //	memory 18776kb runtime 244ms
 //		Scanner scan = new Scanner(System.in);

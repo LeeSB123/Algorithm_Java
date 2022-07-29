@@ -3,7 +3,7 @@ package baekjoon;
 // 크냐? 
 import java.util.Scanner;
 
-public class j4101 {
+public class J4101 {
 	public static void main(String[] args) {
 //	Memory 18048kb Runtime 232ms
 		Scanner scan = new Scanner(System.in);
