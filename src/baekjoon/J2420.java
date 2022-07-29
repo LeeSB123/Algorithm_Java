@@ -12,6 +12,7 @@ public class J2420 {
 		long M = scan.nextLong();
 		
 		System.out.println(Math.abs(N - M));
+		scan.close();
 		
 	}
 	

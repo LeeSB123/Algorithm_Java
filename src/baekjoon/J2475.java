@@ -18,6 +18,7 @@ public class J2475 {
 		}
 		
 		System.out.println(sum % 10);
+		scan.close();
 		
 	}
 	
