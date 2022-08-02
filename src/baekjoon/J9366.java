@@ -35,6 +35,8 @@ public class J9366 {
 			}
 		}
 		
+		reader.close();
+		
 	}
 	
 }
